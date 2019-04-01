@@ -1,0 +1,7 @@
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.exe.config
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.exe
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.pdb
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.csprojAssemblyReference.cache
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.csproj.CoreCompileInputs.cache
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.exe
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.pdb
