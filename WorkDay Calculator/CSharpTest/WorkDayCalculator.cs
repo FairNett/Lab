@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTest
 {
@@ -12,9 +8,11 @@ namespace CSharpTest
         {
             for (int i = 0; i < weekEnds.Length-1; i++)
             {
-                if (weekEnds[i].StartDate>)
+                if (weekEnds[i].StartDate> weekEnds[i+1].StartDate)
                 {
-
+                    var temp = weekEnds[i];
+                    weekEnds[i] = weekEnds[i + 1];
+                    weekEnds[i + 1] = temp;
                 }
             }
             if (startDate != weekEnds[0].StartDate)
@@ -24,21 +22,19 @@ namespace CSharpTest
 
             while (dayCount != 0)
             {
-                for (int i = 0; i < weekEnds.Length; i++)
+                for (int i = 0; i < weekEnds.Length-1; i++)
                 {
-                    if (startDate.AddDays(1) != weekEnds[i].StartDate)
-                    {
-                        startDate = startDate.AddDays(1);
-                        dayCount--;
-                    }
-                    else
-                    {
-                        startDate = weekEnds[i].EndDate.AddDays(1);
-                        dayCount--;
-                    }
-                        
+                        if (startDate.AddDays(1) != weekEnds[i].StartDate)
+                        {
+                            startDate = startDate.AddDays(1);
+                            dayCount--;
+                        }
+                        else
+                        {
+                            startDate = weekEnds[i].EndDate.AddDays(1);
+                            dayCount--;
+                        }
                 }
-                
             }
 
             return startDate;
