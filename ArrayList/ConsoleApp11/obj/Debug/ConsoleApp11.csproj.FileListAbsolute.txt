@@ -1,0 +1,7 @@
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.csprojAssemblyReference.cache
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.csproj.CoreCompileInputs.cache
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.exe.config
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.exe
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.pdb
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.exe
+D:\4 семестр\ТПЗІ\Sharp\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.pdb
