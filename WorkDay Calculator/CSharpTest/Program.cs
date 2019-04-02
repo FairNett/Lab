@@ -14,7 +14,7 @@ namespace CSharpTest
                 Console.Write("Start date:");
                 DateTime Date = Convert.ToDateTime(Console.ReadLine());
 
-                Console.Write("Duration:");
+                Console.Write("Duration, day(s):");
                 uint Duration = UInt32.Parse(Console.ReadLine());
 
                 Console.Write("Weekends 1:");

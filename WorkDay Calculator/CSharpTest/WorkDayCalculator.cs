@@ -8,36 +8,38 @@ namespace CSharpTest
         {
             for (int i = 0; i < weekEnds.Length-1; i++)
             {
-                if (weekEnds[i].StartDate> weekEnds[i+1].StartDate)
+                if (weekEnds[i].StartDate.Day> weekEnds[i+1].StartDate.Day)
                 {
                     var temp = weekEnds[i];
                     weekEnds[i] = weekEnds[i + 1];
                     weekEnds[i + 1] = temp;
                 }
             }
-            if (startDate != weekEnds[0].StartDate)
+            if (startDate < weekEnds[0].StartDate)
             {
                 dayCount--;
             }
 
-            while (dayCount != 0)
+
+            for (int i = 0; i < weekEnds.Length; i++)
             {
-                for (int i = 0; i < weekEnds.Length-1; i++)
+                while (dayCount != 0)
                 {
-                        if (startDate.AddDays(1) != weekEnds[i].StartDate)
-                        {
-                            startDate = startDate.AddDays(1);
-                            dayCount--;
-                        }
-                        else
-                        {
-                            startDate = weekEnds[i].EndDate.AddDays(1);
-                            dayCount--;
-                        }
+                    if ((startDate.AddDays(1) < weekEnds[i].StartDate || startDate.AddDays(1) > weekEnds[i].EndDate) && (startDate.AddDays(1) < weekEnds[i + 1].StartDate || startDate.AddDays(1) > weekEnds[i + 1].EndDate))
+                    {
+                        startDate = startDate.AddDays(1);
+                        dayCount--;
+                    }
+                    else 
+                    {
+                        startDate = startDate.AddDays(1);
+                    }
                 }
             }
-
             return startDate;
         }
+
+            
+        
     }
 }
